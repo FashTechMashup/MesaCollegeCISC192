@@ -1,0 +1,11 @@
+else if (month == FEB && year % 100 != 0)
+{
+  cout << "There were " << FEB_DAYS << "in February of " << year
+       << "." << endl;
+}
+
+else if (month == FEB && year % 100 = 0)
+{
+  cout << "There were " << FEB_LEAP_YEAR << "in February of " << year
+       << "." << endl;
+}
