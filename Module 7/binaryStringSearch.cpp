@@ -20,7 +20,7 @@ int main()
   const int NUM_NAMES = 20;
   string names[NUM_NAMES];
 
-  inputFile.open("//Users//kmist//desktop//mesa college//cisc 192//Module 7//names.txt");
+  inputFile.open("names.txt");
 
     for (int i = 0; i < 20; i++)
     {
